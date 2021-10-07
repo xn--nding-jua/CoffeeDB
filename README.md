@@ -19,17 +19,20 @@ The integrated Cash-Invoice-System helps you to manage the Coffee-Cash-Register
 - mkdir Coffee
 - git clone https://github.com/xn--nding-jua/CoffeeDB.git
 
-2. Create a new cronjob for sending mails
-- crontab -e
-- 0 0 1 * * php /var/www/html/Coffee/CoffeeSendMails.php
+2. Download all nescesary components by starting install.sh-script
+- bash install.sh
 
-3. Open browser and browse to Coffee.php or Cash.php
-- https://www.yourdomain.de/Coffee/Coffee.php
-- https://www.yourdomain.de/Coffee/Cash.php
-
-
-# Used softwares
-- jpgraph
-- PHPMailer
+3. Check if the folder components contains four subfolders:
 - bootstrap
-- jquery
+- jpgraph
+- MaterialDesign-Webfont
+- PHPMailer
+
+4. Create a new cronjob for sending mails
+- crontab -e
+- 0 0 1 * * php /var/www/html/CoffeeDB/CoffeeSendMails.php
+
+5. Open browser and browse to index.php or Cash.php
+- https://www.yourdomain.de/CoffeeDB/index.php -> User-Frontend
+- https://www.yourdomain.de/CoffeeDB/Cash.php -> Management-Backend
+

@@ -1,0 +1,28 @@
+{
+    "Kosten": {
+        "Schwarz": 0.25,
+        "Milch": 0.35
+    },
+    "Users": [
+        " Bitte Nutzer ausw\u00e4hlen...",
+        " Neuer Nutzer",
+        " ________________",
+        "Testnutzer"
+    ],
+    "UserMails": {
+        "Testnutzer": "testnutzer@yourdomain.de"
+    },
+    "Cash": {
+        "Kasse": 0,
+        "G\u00e4ste": 0,
+        "Testnutzer": 0
+    },
+    "2021": {
+        "09": {
+            "Testnutzer": {
+                "Schwarz": 1,
+                "Milch": 3
+            }
+        }
+    }
+}

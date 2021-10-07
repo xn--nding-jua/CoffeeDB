@@ -1,0 +1,9 @@
+{
+	"SMTPServer": "smtp.yourdomain.de",
+	"SMTPPort": 587,
+	"SMTPUsername": "YourSMTPUserName",
+	"SMTPPassword": "YourSMTPPassword",
+	"SendMailFrom": "kaffeeliste@yourdomain.de",
+	"FriendlyMailName": "Kaffeeliste",
+	"CoffeeDBURL": "https://www.yourdomain.de/CoffeeDB/"
+}
