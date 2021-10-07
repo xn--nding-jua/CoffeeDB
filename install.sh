@@ -10,6 +10,8 @@
 #
 #
 
+mkdir DB_Backups
+mkdir components
 cd components
 
 echo "Downloading MaterialDesign-Webfont..."
