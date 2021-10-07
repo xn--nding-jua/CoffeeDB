@@ -36,3 +36,7 @@ The integrated Cash-Invoice-System helps you to manage the Coffee-Cash-Register
 - https://www.yourdomain.de/CoffeeDB/index.php -> User-Frontend
 - https://www.yourdomain.de/CoffeeDB/Cash.php -> Management-Backend
 
+
+# Example for User-eMail
+Users will receive an eMail sent by cronjob containing the current number of coffees and the bank balance:
+![image](https://user-images.githubusercontent.com/9845353/136380417-44cd4ee5-8bfb-49eb-910e-720ccfdf5e47.png)
